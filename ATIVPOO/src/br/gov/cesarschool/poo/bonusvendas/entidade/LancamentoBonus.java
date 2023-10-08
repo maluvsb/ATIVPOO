@@ -10,7 +10,7 @@ public class LancamentoBonus {
 	private LocalDateTime dataHoraLancamento;
 	
 	// construtor deve inicializar todos os atributos
-	public LancamentoBonus (long numeroCaixaDeBonus, double valor){
+	public LancamentoBonus (long numeroCaixaDeBonus, double valor) {
 		this.numeroCaixaDeBonus = numeroCaixaDeBonus;
 		this.valor = valor;
 		this.dataHoraLancamento = LocalDateTime.now();
