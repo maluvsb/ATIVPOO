@@ -1,4 +1,4 @@
-package br.gov.cesarschool.poo.bonusvendas.entidade;
+package br.gov.cesarschool.poo.bonusvendas.entidade.geral;
 
 public class Endereco {
 	// Todos os atributos devem ser privados
