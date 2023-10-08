@@ -1,8 +1,9 @@
 package br.gov.cesarschool.poo.bonusvendas.entidade;
 
 import java.time.LocalDateTime;
+import java.io.Serializable;
 
-public class LancamentoBonus {
+public class LancamentoBonus implements Serializable {
 	// todas as classes devem ser privadas
 	
 	private long numeroCaixaDeBonus;

@@ -4,7 +4,9 @@ import br.gov.cesarschool.poo.bonusvendas.entidade.geral.*;
 
 import java.time.LocalDateTime;
 
-public class Vendedor {
+import java.io.Serializable;
+
+public class Vendedor implements Serializable{
 	//atributos privados
 	private String cpf;
 	private String nomeCompleto;
