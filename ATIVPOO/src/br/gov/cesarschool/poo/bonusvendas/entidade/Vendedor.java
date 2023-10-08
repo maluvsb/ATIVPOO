@@ -68,4 +68,9 @@ public class Vendedor {
 	public void setEndereco (Endereco endereco) {
 		this.endereco = endereco;
 	}
+	
+	public int calcularIdade() {
+        LocalDateTime dataAtual = LocalDateTime.now();
+        return dataAtual.getYear() - dataNascimento.getYear();
+    }
 }
